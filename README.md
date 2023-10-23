@@ -47,7 +47,8 @@
       - GET,POST 메서드 상관없이 기능할 수 있도록 처리
 ## 기능 완성 화면
 ### 회원가입
-
+![회원가입]https://raw.githubusercontent.com/leejinsol234/jsp_project/Description/imgs/join.jpg
 ### 로그인
-
+![로그인]https://raw.githubusercontent.com/leejinsol234/jsp_project/Description/imgs/login.jpg
 ### 메인페이지
+![메인페이지]https://raw.githubusercontent.com/leejinsol234/jsp_project/Description/imgs/main.jpg
