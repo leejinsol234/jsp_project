@@ -6,10 +6,10 @@ import jakarta.servlet.http.HttpServletRequest;
 import java.util.Objects;
 
 public class JoinService {
-    private Validator validator;
+    private Validator<Member> validator;
     private MemberDao memberDao;
 
-    public JoinService(Validator validator,MemberDao memberDao){ //전략 패턴(확장에 열려 있는 구조)
+    public JoinService(Validator<Member> validator,MemberDao memberDao){ //전략 패턴(확장에 열려 있는 구조)
         this.validator = validator;
         this.memberDao = memberDao;
     }
